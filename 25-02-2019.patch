@@ -1,0 +1,82 @@
+Index: app/src/main/java/com/animoto/android/views/OnRearrangeListener.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/animoto/android/views/OnRearrangeListener.java	(date 1551072245000)
++++ app/src/main/java/com/animoto/android/views/OnRearrangeListener.java	(date 1551073102657)
+@@ -2,5 +2,5 @@
+ 
+ public interface OnRearrangeListener {
+ 	
+-	public abstract void onRearrange(int oldIndex, int newIndex);
++	void onRearrange(int oldIndex, int newIndex);
+ }
+Index: app/src/main/java/com/animoto/android/DraggableGridViewSampleActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/animoto/android/DraggableGridViewSampleActivity.java	(date 1551072245000)
++++ app/src/main/java/com/animoto/android/DraggableGridViewSampleActivity.java	(date 1551073102673)
+@@ -57,9 +57,9 @@
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.main);
+         
+-        dgv = ((DraggableGridView)findViewById(R.id.vgv));
+-        button1 = ((Button)findViewById(R.id.button1));
+-        button2 = ((Button)findViewById(R.id.button2));
++        dgv = findViewById(R.id.vgv);
++        button1 = findViewById(R.id.button1);
++        button2 = findViewById(R.id.button2);
+         
+         setListeners();
+     }
+@@ -81,6 +81,7 @@
+ 				poem.remove(arg2);
+ 			}
+ 		});
++    	// ADD RECT IMAGE
+     	button1.setOnClickListener(new OnClickListener() {
+ 			public void onClick(View arg0) {
+ 				String word = words[random.nextInt(words.length)];
+Index: app/src/main/res/layout/main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/main.xml	(date 1551072245000)
++++ app/src/main/res/layout/main.xml	(date 1551072734079)
+@@ -1,9 +1,27 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+-    android:layout_height="fill_parent"
+-    >
+-    <com.animoto.android.views.DraggableGridView android:id="@+id/vgv" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></com.animoto.android.views.DraggableGridView>
+-    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:text="@string/button1Text"></Button>
+-    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/button1" android:text="@string/button2Text"></Button>
++    android:layout_height="fill_parent">
++
++    <com.animoto.android.views.DraggableGridView
++        android:id="@+id/vgv"
++        android:layout_height="fill_parent"
++        android:layout_width="fill_parent"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentLeft="true">
++    </com.animoto.android.views.DraggableGridView>
++    <Button android:id="@+id/button1"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_alignParentBottom="true"
++        android:layout_alignParentLeft="true"
++        android:text="@string/button1Text">
++    </Button>
++    <Button android:id="@+id/button2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_alignParentBottom="true"
++        android:layout_toRightOf="@+id/button1"
++        android:text="@string/button2Text">
++    </Button>
+ </RelativeLayout>
