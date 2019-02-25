@@ -57,9 +57,9 @@ public class DraggableGridViewSampleActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        dgv = ((DraggableGridView)findViewById(R.id.vgv));
-        button1 = ((Button)findViewById(R.id.button1));
-        button2 = ((Button)findViewById(R.id.button2));
+        dgv = findViewById(R.id.vgv);
+        button1 = findViewById(R.id.button1);
+        button2 = findViewById(R.id.button2);
         
         setListeners();
     }
@@ -81,6 +81,7 @@ public class DraggableGridViewSampleActivity extends Activity {
 				poem.remove(arg2);
 			}
 		});
+    	// ADD RECT IMAGE
     	button1.setOnClickListener(new OnClickListener() {
 			public void onClick(View arg0) {
 				String word = words[random.nextInt(words.length)];
