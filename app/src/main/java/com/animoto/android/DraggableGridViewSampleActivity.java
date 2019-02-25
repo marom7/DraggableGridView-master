@@ -105,7 +105,6 @@ public class DraggableGridViewSampleActivity extends Activity {
             }
         });
     }
-
     private Bitmap getThumb(String s) {
         Bitmap bmp = Bitmap.createBitmap(150, 150, Bitmap.Config.RGB_565);
         Canvas canvas = new Canvas(bmp);
