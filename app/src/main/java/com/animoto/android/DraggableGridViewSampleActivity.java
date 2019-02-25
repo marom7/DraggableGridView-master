@@ -84,7 +84,7 @@ public class DraggableGridViewSampleActivity extends Activity {
                 poem.remove(arg2);
             }
         });
-        // ADD RECT IMAGE.
+        // ADD IMAGE to GRID.
         button1.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
                 String word = words[random.nextInt(words.length)];
