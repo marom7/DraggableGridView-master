@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.animoto.android"
-    android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.animoto.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="26" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="26" />
 
-    <application android:debuggable="true" android:icon="@drawable/icon"
-        android:label="@string/app_name" android:testOnly="true">
-        <activity android:name="com.animoto.android.DraggableGridViewSampleActivity"
-            android:label="@string/app_name">
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+        <activity
+            android:name="com.animoto.android.DraggableGridViewSampleActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -15,7 +23,8 @@
             </intent-filter>
         </activity>
 
-        <provider android:name="com.android.tools.ir.server.InstantRunContentProvider"
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.animoto.android.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>

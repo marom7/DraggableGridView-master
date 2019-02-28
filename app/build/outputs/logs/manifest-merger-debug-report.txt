@@ -1,48 +1,48 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-18:12
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:3:7-36
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:5:7-32
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:5:5-30
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:4:7-30
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:8:5-17:19
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:8:5-20:19
 	android:label
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:8:48-80
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:10:9-41
 	android:icon
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:8:18-47
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:9:9-38
 activity#com.animoto.android.DraggableGridViewSampleActivity
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:9:9-15:20
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:11:9-18:20
 	android:label
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:10:19-51
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:13:13-45
 	android:name
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:9:19-66
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:12:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:11:13-14:29
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:12:17-69
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:12:25-66
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:13:17-77
+ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:13:27-74
+		ADDED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
 INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Android\DraggableGridView-master\app\src\main\AndroidManifest.xml
